@@ -109,3 +109,33 @@ body{
   border-radius: 14px;
   box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
+
+.contact {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #4d47ff00;  
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 97px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+}
+
+.contact input,
+.contact textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
