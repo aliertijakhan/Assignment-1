@@ -87,5 +87,25 @@ body{
   color: #5b3dfd;
   font-size: 80px;
   font-weight: bold;
-  
+}
+
+.rate{
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.ratings-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.ratings {
+  background: #f9f9f9;
+  padding: 20px;
+  width: 250px;
+  border-radius: 14px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
