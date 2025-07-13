@@ -139,3 +139,25 @@ body{
   border-radius: 6px;
   font-size: 1rem;
 }
+
+.footer {
+  background: #fafafa;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.footer h2 {
+  color: #4E47FF;
+  font-size: 100px;
+}
+
+.footer-links {
+  margin-top: 20px;
+  
+}
+
+.footer-links a {
+  margin: 0 10px;
+  color: #333;
+  text-decoration: none;
+}
